@@ -1,9 +1,14 @@
 package main
 
 import (
-	"fmt"
+	"log"
+	"net/http"
 )
 
+// The entrypoint of the program just starts a web server
+// using replserver.Router as the handler.
 func main() {
-	fmt.Println("Hello world")
+	if e := http.ListenAndServe(":8080", Router{}); e != nil {
+		log.Fatalln("Error starting HTTP server:", e)
+	}
 }
