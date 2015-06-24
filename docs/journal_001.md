@@ -1,5 +1,5 @@
 # REPL Server Development Journal 001
-__June 24, 2015 01:56 AM__
+__June 24, 2015 01:56 AM / Los Angeles, California__
 
 ## Goals
 I am going to try and write a tool that I help might be useful for myself and other developers in a variety of situations. I don't have an official name for it yet, but I'm refering to it in my head as "REPL Anywhere".

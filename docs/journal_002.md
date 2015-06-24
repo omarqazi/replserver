@@ -1,5 +1,5 @@
 # REPL Server Development Journal 001
-__June 24, 2015 02:31 AM__
+__June 24, 2015 02:31 AM / Los Angeles, California__
 
 ## Boilerplate Stuff
 Okay, so so far I've set up the basics of a go web server project:
